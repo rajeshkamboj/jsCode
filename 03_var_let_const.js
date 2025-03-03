@@ -29,3 +29,16 @@ function constExample() {
 varExample();
 letExample();
 constExample();
+
+
+let a = 10;
+b = 20;
+console.log(a); // 10
+console.log(b); // 20
+
+a = 20;
+console.log(a); // 20
+
+const c= 30;
+//c = 40; // Error: Assignment to constant variable.
+console.log(c); // 30
