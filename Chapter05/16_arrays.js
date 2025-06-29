@@ -82,4 +82,3 @@ console.log(minNumber); // Output: 1
 // How to filter elements in an array?
 let filteredFruits = fruits.filter(fruit => fruit.startsWith('a'));
 console.log(filteredFruits); // Output: ['apple']
-
