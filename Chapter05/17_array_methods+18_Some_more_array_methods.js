@@ -135,3 +135,9 @@ console.log(flattenedArray); // Output: [1, 2, 3, 4]
 // The flatMap method first maps each element using a mapping function, then flattens the result into a new array.
 let flatMappedArray = nestedArray.flatMap(x => x + 1);
 console.log(flatMappedArray); // Output: [2, 3, 4]
+
+// 21. At Method
+// The at method returns the element at the specified index, allowing for negative indexing.
+let atArray = [10, 20, 30, 40];
+console.log(atArray.at(2)); // Output: 30 (element at index 2)
+console.log(atArray.at(-1)); // Output: 40 (last element using negative index)
