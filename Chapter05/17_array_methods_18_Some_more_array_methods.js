@@ -116,7 +116,7 @@ console.log(someGreaterThanTen); // Output: true (there are numbers greater than
 // 17. Fill Method
 // The fill method fills all elements of an array from a start index to an end index with a static value.
 let fillArray = [1, 2, 3, 4, 5];
-fillArray.fill(X, 1, 4); // Fills elements from index 1 to 4 with the value X
+fillArray.fill('X', 1, 4); // Fills elements from index 1 to 4 with the value 'X'
 console.log(fillArray); // Output: [1, 'X', 'X', 'X', 5]
 
 // 18. CopyWithin Method   
